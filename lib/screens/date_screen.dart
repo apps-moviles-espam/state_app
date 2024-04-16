@@ -27,9 +27,11 @@ class _DateScreenState extends State<DateScreen> {
           onPressed: () {
             // We totally need to use setState() here. Otherwise, state will be updated
             // but UI will not reflect that change.
-            setState(() {
-              date = DateTime.now();
-            });
+            // setState(() {
+            //   date = DateTime.now();
+            // });
+
+            date = DateTime.now();
           },
           child: const Text('Update date'),
         ),
