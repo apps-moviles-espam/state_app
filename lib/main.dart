@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:state_app/screens/alert_screen.dart';
+import 'package:state_app/screens/switch_screen.dart';
 //import 'screens/alert_screen.dart';
 import 'screens/date_screen.dart';
 //import 'screens/slider_screen.dart';
@@ -31,8 +33,8 @@ class TabBarApp extends StatelessWidget {
           body: const TabBarView(
             children: [
               DateScreen(),
-              // AlertScreen(),
-              // SwitchScreen(),
+              AlertScreen(),
+              SwitchScreen(),
               // SliderScreen(),
             ],
           ),
